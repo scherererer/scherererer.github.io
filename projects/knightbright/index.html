@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AUTOMATON - Projects - Michael Petelle Scherer</title>
+    <link rel="stylesheet" type="text/css" href="../../style.css" />
+    <script src="fix.js"></script>
+</head>
+
+<body>
+    <div id="MainHeader">
+        <img src="../../images/logo.png" width="400" height="184" class="imgleft" />
+        <div id="MainMenu">
+            <a href="../../index.html" class="MenuLink">Home</a>
+            <a href="../../index.html#projects" class="MenuLink">Projects</a>
+            <a href="../../interests.html" class="MenuLink">Interests</a>
+            <a href="../../michaelscherer-resume.pdf" class="MenuLink">R&eacute;sum&eacute;</a>
+            <a href="http://youtube.com/user/scherernet" class="MenuLink" target="_TAB">YouTube</a>
+            <a href="http://www.linkedin.com/in/michaelpscherer" class="MenuLink" target="_TAB">LinkedIn</a>
+        </div>
+    </div>
+    <div id="MainContent">
+        <div class="content">
+            <a href="images/tallshot.jpg"><img src="images/tallshot_thumb.png" class="imgright" /></a>
+            <h2>KnightBright</h2>
+            <p>
+                Created for the 2010 IEEE SoutheastCon Hardware Competition, KnightBright is a fully autonomous solar powered vehicle. The robot was not allowed to have any stored energy before the start of the competition and could only derive energy from four 400 Watt lamps positioned around the course.
+            </p>
+            
+            <p>
+                <b>Sensors:</b><br />
+                - Photodiode<br />
+                - 2x Flex sensor for wall following<br />
+                - Bump sensor in front<br />
+            </p>
+            
+            <p>
+                <b>Technical Details:</b><br />
+                Because the light sources were suspended at a fixed distance from the ground, a scissor-lift was designed to elevate the solar panels closer to the source, thereby increasing the amount of energy harvested while decreasing the number of panels required. This had the unfortunate consequence of cooking some of the panels (as shown in the picture). The panels were hooked in parallel to a large bank of capacitors, whose voltage was monitored by the microcontroller on board. After passing a threshold (or exceeding a timeout), the microcontroller would drive the robot away from the light source and towards the wall. From there, a PID controller was used to align the robot with the wall using the two flex sensors. These sensors would also detect when a corner was reached, so that the vehicle could perform a turning maneuver.
+            
+            <p>
+                <b>External Links:</b><br />
+                <a href="http://robotics.ucf.edu/ground/ieee.php?menu=ground" target="_TAB">KnightBright Team</a><br />
+            </p>
+            
+            <figure>
+                <img src="images/Club2009.jpg" alt="prototype" />
+                <figcaption>An early prototype</figcaption>
+            </figure>
+            
+        </div>
+    </div>
+    <div id="MainFooter">
+        <div id="MainFooterContent">Copyright &#169; Michael Petelle Scherer 2012</div>
+    </div>
+</body>
+</html>
