@@ -23,14 +23,25 @@ div#MainHeader {
     background-color:   #333333;
     width:              100%;
     height:             200px;
-    margin:         0px 0px 0px 0px;
+    margin:         0px auto 0px auto;
     padding:        0px 0px 0px 0px;
 
-    border-bottom:      4 solid red
+    border-bottom:      4px solid #FF0000
+}
+
+div#MainHeaderContent {
+    color:              #FFFFFF;
+    background-color:   #333333;
+    width:              100%;
+    max-width:          1000px;
+    height:             200px;
+    margin:         0px auto 0px auto;
+    padding:        0px 0px 0px 0px;
 }
 
 div#MainMenu {
     padding:        38px 0px 0px 0px;
+    line-height:        2;
 }
 
 div#MainContent {
@@ -39,9 +50,10 @@ div#MainContent {
     
     width:              100%;
     max-width:          1000px;
-    margin:         0px 0px 0px 0px;
+    margin:         0px auto 0px auto;
     padding:        0px 0px 0px 0px;
     border-right:   1px solid #333333;
+    border-left:    1px solid #333333;
 }
 
 div#MainFooter {
@@ -51,7 +63,7 @@ div#MainFooter {
     text-align:         center;
     
     width:              100%;
-    margin:         0px 0px 0px 0px;
+    margin:         0px auto 0px auto;
     padding:        0px 0px 0px 0px;
 }
 
@@ -63,7 +75,7 @@ div#MainFooterContent {
     
     width:              100%;
     max-width:          1000px;
-    margin:         0px 0px 0px 0px;
+    margin:         0px auto 0px auto;
     padding:        0px 0px 0px 0px;
 }
 
@@ -113,6 +125,8 @@ a.MenuLink {
     color:              #FFFFFF;
     background-color:   #CC5500;
     text-decoration:    none;
+    font-weight:        bold;
+    font-size:          x-large;
     padding:        5px 5px 5px 5px;
     margin:         0px 2px 0px 0px;
     
@@ -125,8 +139,6 @@ a.MenuLink {
 a:hover.MenuLink{
     color:              #FFFFFF;
     text-decoration:    none;
-    padding:        5px 5px 5px 5px;
-    margin:         0px 2px 0px 0px;
     
     background-color:   #55CC00;
 }
