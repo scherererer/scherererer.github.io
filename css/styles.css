@@ -7409,7 +7409,7 @@ textarea.form-control-lg {
 .bg-masthead {
   background-image: url("../assets/img/rigs.jpeg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .bg-primary {
